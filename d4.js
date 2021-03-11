@@ -99,13 +99,13 @@ HINT: Module Operator
 
 const check3and7 = function(n){
     if(n % 3){
-        return n
+        return n % 3
     }
     else if(n % 7){
-        return n
+        return n % 7
     }
 }
-const resultOfFunction = check3and7
+const resultOfFunction = check3and7(93939)
 console.log(resultOfFunction)
 
 /* WRITE YOUR CODE HERE */
