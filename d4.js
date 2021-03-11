@@ -97,6 +97,17 @@ a positive number and check if it is a multiple of 3 or a multiple of 7.
 HINT: Module Operator
 */
 
+const check3and7 = function(n){
+    if(n % 3){
+        return n
+    }
+    else if(n % 7){
+        return n
+    }
+}
+const resultOfFunction = check3and7
+console.log(resultOfFunction)
+
 /* WRITE YOUR CODE HERE */
 
 /* EXERCISE 7
